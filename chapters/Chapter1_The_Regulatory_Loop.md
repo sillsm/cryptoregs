@@ -24,4 +24,10 @@ And back to the beginning.
 
 ## Regulatory Dynamics
 
-From this perspective, it is a mistake to only study cases to understand how cryptocurrencies might be regulated. Commonly practitioners ask each other "is this a regulated transaction? What is the test we should apply?" Rather, we encourage the reader to consider regulations in the context of the regulatory loop. The more important question is, does an agency feel it 
+From this perspective, it is a mistake to only study cases to understand how cryptocurrencies might be regulated. Commonly practitioners ask each other "is this a regulated transaction? What is the test we should apply?" Rather, we encourage the reader to consider regulations in the context of the regulatory loop. First ask, does an agency feel it _ought_ to regulate a transaction. Why? How far the agency goes in stretching its available tools depends on how much pressure it feels to regulate.
+
+We will study a variety of tests from U.S. agencies. The tests that survive the longest are those that prioritize intent over structure. For example, the IRS relies on a principle that it may tax "income from whatever source derived". There's no amount of restructuring a cryptocurrency income source that can make it not income.
+
+By contrast, since Howey, investment contracts are those where there is an expectation of profit derived "from the efforts of others". This phrase alone is greatly responsible for the Distributed Finance (DeFi) industry, where smart contracts were restructured and distributed to fully separate expectation of profit from control. The contemporary SEC feints at regulating here is a reaction to a reaction to a reaction.
+
+It is not fair to say 
