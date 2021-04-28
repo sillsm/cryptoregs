@@ -7,19 +7,12 @@ title: Howie talk
 
 Here's some intro text on Howie.
 
-## Howie
+## SEC v. W. J. Howey Co.
 --------------------------------------------------------------------------------
-F Something[^InlineNoteHowie]
+328 U.S. 293 (1946)[^InlineNoteHowie]
 
-[^InlineNoteHowie]: _FreecyleSunnyvale v. Freecycle Network_, 626 F.3d 509
-    (9th Cir. 2010), _available at_
-    http://cdn.ca9.uscourts.gov/datastore/opinions/2010/11/24/08-16382.pdf
-
-
-CERTIORARI TO THE CIRCUIT COURT OF APPEALS FOR THE FIFTH CIRCUIT.
-294*294 Roger S. Foster argued the cause for petitioner. With him on the brief were Solicitor General McGrath, Robert S. Rubin and Alexander Cohen.
-
-C.E. Duncan and George C. Bedell argued the cause and filed a brief for respondents.
+[^InlineNoteHowie]: _Securities and Exchange Commission v. W. J. Howey Co._, 328 U.S. 293 (1946), _available at_
+    https://scholar.google.com/scholar_case?case=12975052269830471754
 
 MR. JUSTICE MURPHY delivered the opinion of the Court.
 
@@ -52,3 +45,7 @@ Thus all the elements of a profit-seeking business venture are present here. The
 This conclusion is unaffected by the fact that some purchasers choose not to accept the full offer of an investment contract by declining to enter into a service contract with 301*301 the respondents. The Securities Act prohibits the offer as well as the sale of unregistered, non-exempt securities.[6] Hence it is enough that the respondents merely offer the essential ingredients of an investment contract.
 
 We reject the suggestion of the Circuit Court of Appeals, 151 F.2d at 717, that an investment contract is necessarily missing where the enterprise is not speculative or promotional in character and where the tangible interest which is sold has intrinsic value independent of the success of the enterprise as a whole. The test is whether the scheme involves an investment of money in a common enterprise with profits to come solely from the efforts of others. If that test be satisfied, it is immaterial whether the enterprise is speculative or non-speculative or whether there is a sale of property with or without intrinsic value. See S.E.C. v. Joiner Corp., supra, 352. The statutory policy of affording broad protection to investors is not to be thwarted by unrealistic and irrelevant formulae.
+
+### Discussion
+
+That was interesting huh?
