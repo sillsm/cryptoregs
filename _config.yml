@@ -15,8 +15,8 @@ paginate:         5
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Chapter 1 The Regulatory Loop: "Chapter1_The_Regulatory_Loop"
-  Chapter 2 SEC: "howey"
+  Chapter 1 The Regulatory Loop: "chapters/Chapter1_The_Regulatory_Loop"
+  Chapter 2 SEC: "chapters/howey"
 
 # Custom vars
 version:          2.1.0
