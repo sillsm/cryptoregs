@@ -6,17 +6,11 @@
       </h1>
     </div>
 
-    <nav class="sidebar-nav">
-         <div class="chapters">
-           <a href="{{ "chapters/howie" | relative_url }}"> Howie Stuff </a>
-         </div>
-      
+    <nav class="sidebar-nav">      
             {%- for link in site.navbar-links -%}
-            <div class="col-md-3">
-            <li class="nav-item">
+            <div class="chapter">
              <a class="nav-link" href="{{ chapters/link[1] | relative_url }}">{{ link[0] }}</a>
-            </li>
-         </div>
+            </div>
           {%- endfor -%}
     </nav>
 
