@@ -3,7 +3,7 @@ layout: post
 title: The Regulatory Loop
 ---
 
-Laws and regulations are not enacted in a vaccuum. 
+Laws and regulations are not enacted in a vacuum. 
 
 
 ## The Regulatory Loop
