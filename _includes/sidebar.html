@@ -7,17 +7,9 @@
     </div>
 
     <nav class="sidebar-nav">
-         <div class="posts">
-          {% for post in paginator.posts %}
-          <div class="post">
-            <h1 class="post-title">
-              <a href="{{ post.url | relative_url }}">
-                {{ post.title }}
-              </a>
-            </h1>
-          </div>
-          {% endfor %}
-        </div>
+         <div class="chapters">
+              <a href="{{ "chapters/howie" | relative_url }}">
+         </div>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
