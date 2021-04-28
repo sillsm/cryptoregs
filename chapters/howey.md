@@ -3,7 +3,7 @@ layout: post
 title: Howie talk
 ---
 
-# Let's talk about Howie
+# Let's talk about Howey
 
 Here's some intro text on Howie.
 
