@@ -3,10 +3,14 @@ layout: post
 title: Howie talk
 ---
 
-[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+# Let's talk about Howie
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+Here's some intro text on Howie.
 
-It's an immensely useful tool and one we encourage you to use here with Hyde.
+## Howie
+--------------------------------------------------------------------------------
+F Something[^InlineNoteHowie]
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+[^InlineNoteHowie]: _FreecyleSunnyvale v. Freecycle Network_, 626 F.3d 509
+    (9th Cir. 2010), _available at_
+    http://cdn.ca9.uscourts.gov/datastore/opinions/2010/11/24/08-16382.pdf
