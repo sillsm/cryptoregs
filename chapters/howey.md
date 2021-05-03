@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Securities Exchange Commission: When is crypto a security?
+title: "Securities Exchange Commission: When is crypto a security?"
 ---
 
 * Table of Contents
