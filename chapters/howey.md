@@ -3,6 +3,9 @@ layout: post
 title: Howie talk
 ---
 
+* Table of Contents
+{:toc}
+
 # Let's talk about Howey
 
 The Howey test is a three element test courts use to determine whether a contract is a security under the Securities Act of 1993, and 
