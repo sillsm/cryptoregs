@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Howie talk
+title: Securities Exchange Commission: When is crypto a security?
 ---
 
 * Table of Contents
 {:toc}
 
-# Let's talk about Howey
+# Frame: The Howey Test
 
 The Howey test is a three element test courts use to determine whether a contract is a security under the Securities Act of 1993, and 
 thus subject to SEC jurisdiction for reporting and other requirements.
@@ -20,7 +20,7 @@ An investment contract is a security when the purchaser does so with
 In Howey and its subsequent line of cases, we examine each of the three factors.
 
 
-## SEC v. W. J. Howey Co.
+# SEC v. W. J. Howey Co.
 --------------------------------------------------------------------------------
 328 U.S. 293 (1946)[^InlineNoteHowie]
 
@@ -59,11 +59,11 @@ This conclusion is unaffected by the fact that some purchasers choose not to acc
 
 We reject the suggestion of the Circuit Court of Appeals, 151 F.2d at 717, that an investment contract is necessarily missing where the enterprise is not speculative or promotional in character and where the tangible interest which is sold has intrinsic value independent of the success of the enterprise as a whole. The test is whether the scheme involves an investment of money in a common enterprise with profits to come solely from the efforts of others. If that test be satisfied, it is immaterial whether the enterprise is speculative or non-speculative or whether there is a sale of property with or without intrinsic value. See S.E.C. v. Joiner Corp., supra, 352. The statutory policy of affording broad protection to investors is not to be thwarted by unrealistic and irrelevant formulae.
 
-### Discussion
+## Discussion
 
 That was interesting huh?
 
-## SEC v. Life Partners, Inc.
+# SEC v. Life Partners, Inc.
 --------------------------------------------------------------------------------
 87 F.3d 536 (D.C.Cir. 1996)[^LifePartnersCite]
 
@@ -208,5 +208,10 @@ LPI advances two arguments in support of the proposition that its viatical settl
 Second, LPI maintains that the fractional interests which it sells to investors are not securities within the meaning of the 1933 Act, as controlled by the Supreme Court's decision in Howey. In Parts II.B(1) and II.B(2), respectively, we conclude that LPI's contracts meet two parts of the Howey test: investors purchase the contracts with an expectation of profits; and they pool their funds, then share any profits or losses that arise. In Part II.B(3), however, we hold that fractional interests in viatical settlements, in any of the three versions marketed or proposed by LPI, are not securities. The combination of LPI's pre-purchase services as a finder-promoter and its largely ministerial post-purchase services is not enough to satisfy the third requirement in Howey: the investors' profits do not flow predominantly from the efforts of others. Finally, we hold that the notes issued to IRAs by LPI-sponsored trusts are not securities either. Looking to the substance of such transactions, we see that the notes are used solely for tax purposes, not as a means of raising capital.
 
 Accordingly, this case is remanded to the district court with instructions to vacate the three injunctions entered against LPI in August 1995, January 1996, and March 1996.
+
+## Discussion
+
+That was interesting huh?
+
 
 
