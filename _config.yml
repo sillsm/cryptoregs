@@ -11,6 +11,9 @@ author:
   name:           'Max Sills'
 
 collections_dir: chapters
+collections:
+  pizza:
+    output: true
 
 paginate:         5
 
