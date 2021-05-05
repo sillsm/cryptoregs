@@ -5,8 +5,8 @@ layout: default
 {% if chapter == "SEC" %}
 {% for slice in site.pizza %}
     <p>
-    <a href="{{ slice.url }}">
-      {{ slice.title | relative_url }}
+    <a href="{{ slice.url | relative_url }}">
+      {{ slice.title }}
     </a>
     </p>
 {% endfor %}
