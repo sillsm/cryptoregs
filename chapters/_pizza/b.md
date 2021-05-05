@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: Fun Types of Animals
 chapter: SEC
 ---
