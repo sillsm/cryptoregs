@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Regulatory Loop
+chapter: SEC
 ---
 
 Laws and regulations are not enacted in a vacuum. 
