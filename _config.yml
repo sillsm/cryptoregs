@@ -10,6 +10,8 @@ baseurl:          /
 author:
   name:           'Max Sills'
 
+collections_dir: chapters
+
 paginate:         5
 
 # --- List of links in the navigation bar --- #
