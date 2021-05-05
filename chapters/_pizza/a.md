@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: The Regulatory Loop
 chapter: SEC
 ---
