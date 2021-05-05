@@ -4,9 +4,11 @@ layout: default
 {% assign chapter = page.chapter %}
 {% if chapter == "SEC" %}
 {% for slice in site.pizza %}
+    <p>
     <a href="{{ slice.url }}">
-      {{ slice.title }}
+      {{ slice.title | relative_url }}
     </a>
+    </p>
 {% endfor %}
 {% endif %}
 
