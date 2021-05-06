@@ -2,6 +2,9 @@
 layout: section
 title: "SEC v. W. J. Howey Co."
 chapter: "SEC"
+sections: 
+  - SEC v. W. J. Howey Co.:
+    - Discussion
 ---
 
 That was interesting huh?
