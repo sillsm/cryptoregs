@@ -14,7 +14,9 @@ collections_dir: chapters
 collections:
   pizza:
     output: true
-
+  chapter2_sec_howey:
+    output: true
+  
 paginate:         5
 
 # --- List of links in the navigation bar --- #
