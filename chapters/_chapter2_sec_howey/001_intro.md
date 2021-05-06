@@ -1,5 +1,5 @@
 ---
 layout: section
-title: "Securities Exchange Commission: When is crypto a security?"
+title: "Chapter 2: SEC"
 chapter: "SEC"
 ---
