@@ -22,16 +22,12 @@ layout: default
 {% for slice in site.pizza %}
 
 {% if slice.title == page.title %}
+    {% unless forloop.first %}
+        <a class="prev" href="{{ prev.url | relative_url }}">{{ prev.title }}&larr;</a>
+    {% endunless %}
     {% unless forloop.last %}
         {% assign next = site.pizza[forloop.index] %}
-        <li class="next">
-        <a href="{{ next.url | relative_url }}">&rarr;{{ next.title }}</a>
-        </li>
-    {% endunless %}
-    {% unless forloop.first %}
-        <li class="prev">
-        <a href="{{ prev.url | relative_url }}">{{ prev.title }}&larr;</a>
-        </li>
+        <a class="next" style="float:right" href="{{ next.url | relative_url }}">&rarr;{{ next.title }}</a>
     {% endunless %}
 {% endif %}
 {% assign prev = slice %}
