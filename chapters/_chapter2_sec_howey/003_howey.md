@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Howey"
+title: "SEC v. W. J. Howey Co."
 chapter: "SEC"
 ---
 
