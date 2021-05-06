@@ -8,13 +8,16 @@ layout: default
 {% endif %}
 
 {% for slice in collection %}
+{% if forloop.first %}
     <p>
     <a href="{{ slice.url | relative_url }}">
       {{ slice.title }}
     </a>
     </p>
+{% endif %}
 {% endfor %}
 
+  <h1 class="chpt">{{ collection.title }}</h1>
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
