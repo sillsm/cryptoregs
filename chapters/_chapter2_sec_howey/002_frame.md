@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Frame"
+title: "The Howey Test"
 chapter: "SEC"
 ---
 
