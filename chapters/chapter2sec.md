@@ -14,19 +14,19 @@ st
     </a>
     </p>
     
-    {% for h2 in h1 %}
+ {% for h2 in h1 %}
     <p>
     <a href="{{ slice.url | relative_url }}#{{ h2 }}">
     {{ h2 }}
     </a>
     </p>
     
-    {% endfor %}
+ {% endfor %}
 
 {% endfor %}
-{% unless slice.sections % }
+{% unless slice.sections %}
  <p>{{ slice.title }}</p>
-{% endunless % }
+{% endunless %}
 {% endfor %}
 
 
