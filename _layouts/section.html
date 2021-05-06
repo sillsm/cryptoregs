@@ -23,11 +23,13 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
         {% if page.title == collection[0].title %}
         {% for slice in collection %}
+            {% unless forloop.first %}
         <p>
         <a href="{{ slice.url | relative_url }}">
           {{ slice.title }}
         </a>
         </p>        
+            {% endunless %}
         {% endfor %}
         {% endif %}
   {{ content }}
