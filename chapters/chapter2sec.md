@@ -1,5 +1,5 @@
 ---
-layout: fulltext
+layout: default
 title: Chapter 2 SEC
 chapter: SEC
 ---
