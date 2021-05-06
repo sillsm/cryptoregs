@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign chapter = page.chapter %}
+{% if chapter == "SEC" %}
+{% for slice in site.pizza %}
+    <p>
+    <a href="{{ slice.url | relative_url }}">
+      {{ slice.title }}
+    </a>
+    </p>
+{% endfor %}
+{% endif %}
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+
+{% if chapter == "SEC" %}
+        {% assign next = site.pizza[0] %}
+        <a class="next" style="float:right" href="{{ next.url | relative_url }}">{{ next.title }}&rarr;</a>
+{% endif %}
