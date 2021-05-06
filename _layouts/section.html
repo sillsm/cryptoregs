@@ -40,11 +40,11 @@ layout: default
 
 {% if slice.title == page.title %}
     {% unless forloop.first %}
-        <a class="prev" href="{{ prev.url | relative_url }}"&larr;&nbsp;{{ prev.title }}</a>
+        <a class="prev" href="{{ prev.url | relative_url }}"> &larr;&nbsp;{{ prev.title }}</a>
     {% endunless %}
     {% unless forloop.last %}
         {% assign next = collection[forloop.index] %}
-        <a class="next" style="float:right" href="{{ next.url | relative_url }}"{{ next.title }}&nbsp;&rarr;</a>
+        <a class="next" style="float:right" href="{{ next.url | relative_url }}"> {{ next.title }}&nbsp;&rarr;</a>
     {% endunless %}
 {% endif %}
 {% assign prev = slice %}
