@@ -16,6 +16,7 @@ collections:
     output: true
   chapter2_sec_howey:
     output: true
+    title: "Chapter 2 SEC"
   
 paginate:         5
 
@@ -23,7 +24,7 @@ paginate:         5
 
 navbar-links:
   Chapter 1 The Regulatory Loop: "chapters/Chapter1_The_Regulatory_Loop"
-  Chapter 2 SEC: "chapters/howey"
+  Chapter 2 SEC: "chapter2_sec_howey/001_intro"
 
 # Custom vars
 version:          2.1.0
