@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign chapter = page.chapter %}
+
+{% if chapter == "SEC" %}
+{% assign collection = site.chapter2_sec_howey %}
+{% endif %}
+
+{% for slice in collection %}
+ {{ slice.content }}
+{% endfor %}
