@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Securities Exchange Commission: When is crypto a security?"
+title: "Frame"
 chapter: "SEC"
 ---
 
