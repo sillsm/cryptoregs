@@ -4,10 +4,10 @@ layout: default
 {% assign chapter = page.chapter %}
 
 {% if chapter == "SEC" %}
-{% assign col = "chapter2_sec_howey" %}
+{% assign collection = site.chapter2_sec_howey %}
 {% endif %}
 
-{% for slice in site.col %}
+{% for slice in collection %}
     <p>
     <a href="{{ slice.url | relative_url }}">
       {{ slice.title }}
@@ -23,14 +23,14 @@ layout: default
 </div>
 
 {% if chapter == "SEC" %}
-{% for slice in site.col %}
+{% for slice in collection %}
 
 {% if slice.title == page.title %}
     {% unless forloop.first %}
         <a class="prev" href="{{ prev.url | relative_url }}">{{ prev.title }}&larr;</a>
     {% endunless %}
     {% unless forloop.last %}
-        {% assign next = site.col[forloop.index] %}
+        {% assign next = collection[forloop.index] %}
         <a class="next" style="float:right" href="{{ next.url | relative_url }}">&rarr;{{ next.title }}</a>
     {% endunless %}
 {% endif %}
