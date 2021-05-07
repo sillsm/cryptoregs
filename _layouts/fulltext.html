@@ -11,8 +11,9 @@ fulltext
 lastt
 {% assign collection = site.chapter2_sec_howey %}
 {% for slice in collection %}
+  {% assign fixedURL = {{ slice.url | relative_url }} %}
   {% assign c2 = slice.content %}
-  {% include toc.html html=c2 sanitize=true class="inline_toc" base_url="{{ slice.url | relative_url }}" id="my_toc" h_min=1 h_max=3 %}
+  {% include toc.html html=c2 sanitize=true class="inline_toc" base_url=fixedURL id="my_toc" h_min=1 h_max=3 %}
 
 {% endfor %}
 TheENDa
