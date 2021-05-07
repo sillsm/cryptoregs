@@ -35,6 +35,8 @@ layout: default
   {{ content }}
 </div>
 
+<p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> Access full chapter text </a> or continue below to read section by section </p>
+
 {% if chapter == "SEC" %}
 {% for slice in collection %}
 
