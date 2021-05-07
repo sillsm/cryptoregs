@@ -4,17 +4,10 @@ layout: default
 {% assign chapter = page.chapter %}
 
 {% if chapter == "SEC" %}
-tried it
 {% include collectiontoc.html %}
-tried it
 {% endif %}
 
-
-   Start content block 
     {{ content }}
-   End Content Block
-
-
 
 {% if chapter == "SEC" %}
 <p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> Access full chapter text </a> or continue below to read section by section </p>
