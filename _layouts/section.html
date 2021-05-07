@@ -2,10 +2,17 @@
 layout: default
 ---
 {% assign chapter = page.chapter %}
-{% assign firstPage = site.chapter2.sec_howey[0] %}
+
 
 {% if chapter == "SEC" %}
-fp {{ firstPage.title }} fp
+{% assign collection = site.chapter2_sec_howey  %}
+{% for slice in collection %}
+  {% if forloop.first % }
+  {% assign firstPage = slice %}
+  {% end if %}
+{% endfor %}
+
+fpz {{ firstPage.title }} fpz
 pt {{ page.title }} pt
 <p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> <ul><li>[Full Chapter]</ul></li> </p>
 {% include collectiontoc.html %}
