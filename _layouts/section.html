@@ -4,11 +4,13 @@ layout: default
 {% assign chapter = page.chapter %}
 
 {% if chapter == "SEC" %}
-{% assign collection = site.chapter2_sec_howey %}
+tried 
+{% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
+tried
 {% endif %}
 
 
-    {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
+    
     {{ content }}
 
 OK
