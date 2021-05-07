@@ -1,7 +1,7 @@
 fi
-{% if chapter == "SEC" %}
+
 {% assign collection = site.chapter2_sec_howey %}
-{% endif %}
+
 
 {% for slice in collection %}
     {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
