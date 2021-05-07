@@ -5,6 +5,7 @@ deeply linked TOC to all the collection fragments and their subheaders.
 
 {% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
+<h1> I was called </h1>
   {% assign fixedURL = slice.url | relative_url %}
   {% assign c2 = slice.content %}
   {% include toc.html html=c2 sanitize=true class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
