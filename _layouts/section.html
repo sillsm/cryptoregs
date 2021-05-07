@@ -9,11 +9,7 @@ layout: default
 
 {% for slice in collection %}
 {% if forloop.first %}
-    <p>
-    <a href="{{ slice.url | relative_url }}">
-      {{ slice.title }}
-    </a>
-    </p>
+  {% include sectoc.html %}
 {% endif %}
 {% endfor %}
 
