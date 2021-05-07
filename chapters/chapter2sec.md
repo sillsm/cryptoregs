@@ -1,5 +1,5 @@
 ---
-layout: fulltext
+layout: sectoc
 title: Chapter 2 SEC
 chapter: SEC
 ---
