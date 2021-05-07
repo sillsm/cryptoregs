@@ -20,7 +20,6 @@ layout: default
 {% for slice in collection %}
 
 {% if slice.title == page.title %}
-   this equality triggered 
     {% unless forloop.first %}
         <a class="prev" href="{{ prev.url | relative_url }}">&larr;&nbsp;{{ prev.title }}</a>
     {% endunless %}
