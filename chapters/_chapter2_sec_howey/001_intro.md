@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Chapter 2: SEC"
+title: "Chapter 29: SEC"
 chapter: "SEC"
 ---
 
