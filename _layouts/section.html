@@ -4,13 +4,17 @@ layout: default
 {% assign chapter = page.chapter %}
 
 {% if chapter == "SEC" %}
+{% if site.chapter2.sec_howey[0].title == page.title %}
+<p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> <ul><li>[Full Chapter]</ul></li> </p>
 {% include collectiontoc.html %}
+{% endif %}
 {% endif %}
 
     {{ content }}
 
+
+
 {% if chapter == "SEC" %}
-<p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> Access full chapter text </a> or continue below to read section by section </p>
 {% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
 
