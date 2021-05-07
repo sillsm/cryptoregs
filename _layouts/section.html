@@ -7,6 +7,7 @@ layout: default
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
+  st {{ slice.title }} st
   {% if forloop.first % }
   {% assign firstPage = slice %}
   {% endif %}
