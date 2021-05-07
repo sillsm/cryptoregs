@@ -3,7 +3,7 @@ You can pass this include template the parameter "collection" to get a
 deeply linked TOC to all the collection fragments and their subheaders.
 {% endcomment %}
 
-{% assign collection = site.pizza %}
+{% assign collection = include.collection %}
 {% for slice in collection %}
   {% assign fixedURL = slice.url | relative_url %}
   {% assign c2 = slice.content %}
