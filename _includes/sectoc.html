@@ -1,11 +1,13 @@
-riftoc
+tlock
 
 {% assign collection = site.chapter2_sec_howey %}
 
 
 {% for slice in collection %}
+    <div class="slice"
     {% include toc.html html=special sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
     {% assign special = slice.content %}
+    </div>
 {% endfor %}
 
 after
