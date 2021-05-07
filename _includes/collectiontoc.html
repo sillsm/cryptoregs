@@ -1,6 +1,10 @@
 {% comment %}
 You can pass this include template the parameter "collection" to get a
 deeply linked TOC to all the collection fragments and their subheaders.
+
+Note the generating step comes before the rendering step,
+so you need to | markdownify, to force the markdown is rendered early
+so the TOC script can parse it for html headers.
 {% endcomment %}
 
 
@@ -9,13 +13,8 @@ deeply linked TOC to all the collection fragments and their subheaders.
 {% for slice in ccc %}
 
   {% assign fixedURL = slice.url | relative_url %}
-  {% assign c2 = slice.content | markdownify %}
-
-  what i got in c2 fix3
-  
-  {{ c2 }}
-  end what I got
-  {% include toc.html html=c2 sanitize=true class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
+  {% assign cc = slice.content | markdownify %}
+  {% include toc.html html=c sanitize=true class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
 
 {% endfor %}
 
