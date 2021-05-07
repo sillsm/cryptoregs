@@ -7,7 +7,9 @@ layout: default
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
-  xy {{ collection[0].title }} yx
+  {% if forloop.first %}
+  xy {{ slice.title }} yx
+  {% endif %}
   st {{ slice.title }} st
   pt {{ page.title }} pt
   {% if slice.title = page.title % }
