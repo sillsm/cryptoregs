@@ -7,12 +7,10 @@ layout: default
 {% assign collection = site.chapter2_sec_howey %}
 {% endif %}
 
-{% for slice in collection %}
-{% if forloop.first %}
+
     {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
     {% assign content = content %}
-{% endif %}
-{% endfor %}
+
 
 
 {% if chapter == "SEC" %}
