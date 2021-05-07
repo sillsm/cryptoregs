@@ -13,7 +13,7 @@ so the TOC script can parse it for html headers.
 {% for slice in ccc %}
 
   {% assign fixedURL = slice.url | relative_url %}
-  {% assign cc = slice.content | markdownify %}
+  {% assign c = slice.content | markdownify %}
   {% include toc.html html=c sanitize=true class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
 
 {% endfor %}
