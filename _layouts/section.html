@@ -3,6 +3,8 @@ layout: default
 ---
 {% assign chapter = page.chapter %}
 
+    {{ content }}
+
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
@@ -12,8 +14,6 @@ layout: default
   {% endif %}
 {% endfor %}
 {% endif %}
-
-    {{ content }}
 
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
