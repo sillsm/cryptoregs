@@ -9,19 +9,10 @@ layout: default
 
 {% for slice in collection %}
 {% if forloop.first %}
-   {% for elt in collection %}
-   {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
-   {% assign content = slice.content %}
-   {% endfor %}
+    {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_max=3 %}
+    {% assign content = content %}
 {% endif %}
 {% endfor %}
-
-  <h1 class="chpt">{{ collection.title }}</h1>
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
 
 
 {% if chapter == "SEC" %}
