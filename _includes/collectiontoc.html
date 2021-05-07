@@ -9,13 +9,13 @@ deeply linked TOC to all the collection fragments and their subheaders.
 {% for slice in ccc %}
 
   {% assign fixedURL = slice.url | relative_url %}
-  {% assign c2 = slice.content %}
+  {% assign c2 = slice.content | markdownify %}
 
-  what i got in c2 fix2
+  what i got in c2 fix3
   
   {{ c2 }}
   end what I got
-  {% include toc.html html=c2 sanitize=false class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
+  {% include toc.html html=c2 sanitize=true class="inline_toc" base_url=fixedURL id="toc_frag" h_min=1 h_max=3 %}
 
 {% endfor %}
 
