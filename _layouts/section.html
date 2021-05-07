@@ -9,7 +9,7 @@ layout: default
 {% for slice in collection %}
   {% if forloop.first % }
   {% assign firstPage = slice %}
-  {% end if %}
+  {% endif %}
 {% endfor %}
 
 fpz {{ firstPage.title }} fpz
