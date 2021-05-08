@@ -7,16 +7,22 @@ layout: default
 
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
+{% assign fulltext = 'chapters/chapter2sec' %}
+{% endif %}
+
+{% if chapter == "IRS" %}
+{% assign collection = site.chapter4_IRS  %}
+{% assign fulltext = 'chapters/chapter4IRS' %}
+{% endif %}
+
+
 {% for slice in collection %}
   {% if slice.title == page.title and forloop.first %}
-      <p> <a href="{{ 'chapters/chapter2sec' | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
+      <p> <a href="{{ fulltext | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
      {% include collectiontoc.html %}
   {% endif %}
 {% endfor %}
-{% endif %}
 
-{% if chapter == "SEC" %}
-{% assign collection = site.chapter2_sec_howey  %}
 {% for slice in collection %}
 
 {% if slice.title == page.title %}
@@ -31,4 +37,4 @@ layout: default
 {% assign prev = slice %}
 
 {% endfor %}
-{% endif %}
+
