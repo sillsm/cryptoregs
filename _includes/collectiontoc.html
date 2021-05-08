@@ -5,12 +5,11 @@ deeply linked TOC to all the collection fragments and their subheaders.
 Note the generating step comes before the rendering step,
 so you need to | markdownify, to force the markdown is rendered early
 so the TOC script can parse it for html headers.
+
+Assumes caller already defined their appropriate collection before invoking.
 {% endcomment %}
 
-
-{% assign ccc = site.chapter2_sec_howey  %}
-
-{% for slice in ccc %}
+{% for slice in collection %}
 
   {% assign fixedURL = slice.url | relative_url %}
   {% assign c = slice.content | markdownify %}
