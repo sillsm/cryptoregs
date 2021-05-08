@@ -3,7 +3,14 @@ layout: default
 ---
 {{ content }}
 
-{% assign collection = site.chapter2_sec_howey %}
+{% if chapter == "SEC" %}
+{% assign collection = site.chapter2_sec_howey  %}
+{% endif %}
+
+{% if chapter == "IRS" %}
+{% assign collection = site.chapter4_IRS  %}
+{% endif %}
+
 {% for slice in collection %}
   {% assign c2 = slice.content %}
   {% include toc.html html=c2 sanitize=true class="inline_toc" id="my_toc" h_min=1 h_max=3 %}
