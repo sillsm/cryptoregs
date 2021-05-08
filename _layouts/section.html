@@ -18,6 +18,8 @@ layout: default
 
 {% for slice in collection %}
   {% if slice.title == page.title and forloop.first %}
+      st {{ slice.title }} st
+      pt {{ page.title }} pt
       <p> <a href="{{ fulltext | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
      {% include collectiontoc.html %}
   {% endif %}
