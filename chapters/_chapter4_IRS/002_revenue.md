@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Chapter 4: IRS"
+title: "A Private Letter Ruling"
 chapter: "IRS"
 ---
 
