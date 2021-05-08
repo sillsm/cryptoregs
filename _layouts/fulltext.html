@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-{{ content }}
-x
+{% assign chapter = page.chapter %}
+
 {% if chapter == "SEC" %}
 {% assign collection = site.chapter2_sec_howey  %}
-y
 {% endif %}
 
 {% if chapter == "IRS" %}
 {% assign collection = site.chapter4_IRS  %}
-z
 {% endif %}
+
+{{ content }}
 
 {% for slice in collection %}
   {% assign c2 = slice.content %}
