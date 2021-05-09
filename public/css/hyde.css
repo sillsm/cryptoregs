@@ -116,13 +116,17 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Hamburger Menu
+/* Resize things on mobile.
  *
  */
 
 @media (max-width: 47.99em) {
   .sidebar {
     display:none;
+  }
+  .content {
+  padding-top:    6rem;
+  padding-bottom: 4rem;
   }
 }
 
@@ -134,12 +138,12 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+@media (min-width: 48em) {
+  .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
-}
-
-@media (min-width: 48em) {
+  }
+  
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -432,5 +436,5 @@ body
     position:fixed;
     width:100%;
     height:6em;
-    background-color:azure;
+    background-color:black;
   }
