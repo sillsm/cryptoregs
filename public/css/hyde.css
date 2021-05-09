@@ -133,6 +133,7 @@ a.sidebar-nav-item:focus {
     display:none;
   }
   .content {
+  scroll-margin-top: 2rem;
   padding-top:    2rem;
   padding-bottom: 4rem;
   }
