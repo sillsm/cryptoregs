@@ -295,7 +295,7 @@ body
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #ffffff;
   
   transition: color 0.3s ease;
 }
@@ -420,3 +420,17 @@ body
 {
   transform: none;
 }
+
+#menu{
+    background-color:#101013;
+    position: fixed;
+    top:60px;
+    bottom: 0;
+}
+
+#hamburger{
+    position:fixed;
+    width:100%;
+    height:6em;
+    background-color:azure;
+  }
