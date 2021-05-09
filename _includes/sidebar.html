@@ -32,11 +32,12 @@
       {% assign collection = site.chapter2_sec_howey  %}
       {% assign fulltext = 'chapters/chapter2sec' %}
       {% for slice in collection %}
-        {% if slice.title == page.title and forloop.first %}
-          <p> <a href="{{ fulltext | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
-         {% include collectiontoc.html %}
-      {% endif %}
+        {% if forloop.first %}
+          <ul>
+        {% endif %}
+          {% include collectiontoc.html %}
       {% endfor %}
+      <li> <a href="{{ fulltext | relative_url }}"> [View full chapter as one page]</li></ul>
       
     </ul>
   </div>
