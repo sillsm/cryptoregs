@@ -346,7 +346,7 @@ body
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #ffffff;
   border-radius: 3px;
   
   z-index: 1;
@@ -376,7 +376,7 @@ body
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 /*
@@ -438,6 +438,7 @@ body
     position: fixed;
     top:60px;
     bottom: 0;
+    overflow-y:auto
 }
 
 #hamburger{
