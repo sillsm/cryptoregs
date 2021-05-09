@@ -427,7 +427,7 @@ body
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
+#menuToggle input:checked ~ div
 {
   transform: none;
 }
