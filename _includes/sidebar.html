@@ -28,7 +28,16 @@
       <a href="#"><li>About</li></a>
       <a href="#"><li>Info</li></a>
       <a href="#"><li>Contact</li></a>
-      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+      
+      {% assign collection = site.chapter2_sec_howey  %}
+      {% assign fulltext = 'chapters/chapter2sec' %}
+      {% for slice in collection %}
+        {% if slice.title == page.title and forloop.first %}
+          <p> <a href="{{ fulltext | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
+         {% include collectiontoc.html %}
+      {% endif %}
+      {% endfor %}
+      
     </ul>
   </div>
   <h1 id="pagetitle">
