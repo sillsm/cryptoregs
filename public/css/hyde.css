@@ -458,3 +458,46 @@ h2 {
 h3 {
     scroll-margin-top: 7rem;
 }
+
+/* Style the chapter accordions in navbar. Note: hidden by default */
+.panel {
+  overflow: hidden;
+}
+.tick{
+  color:white;
+}
+
+.tick.active:after {
+    content: "\2212";
+}
+.tick:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.panel {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #787878;
+    margin-top: 20px;
+}
+
+input {
+    display: none;
+}
+
+input + label + .panel {
+    display: none;
+}
+
+input:checked + label + .panel {
+    display: block;
+}
+
+input:checked + label.tick::after {
+    content: '\2212';;
+}
