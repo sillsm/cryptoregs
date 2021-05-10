@@ -12,8 +12,6 @@ author:
 
 collections_dir: chapters
 collections:
-  pizza:
-    output: true
   chapter2_sec_howey:
     output: true
     title: "Chapter 2 SEC"
