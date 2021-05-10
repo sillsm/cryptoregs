@@ -5,26 +5,7 @@ layout: default
 
     {{ content }}
 
-{% if chapter == "SEC" %}
-{% assign collection = site.chapter2_sec_howey  %}
-{% assign fulltext = 'chapters/chapter2sec' %}
-{% endif %}
-
-{% if chapter == "IRS" %}
-{% assign collection = site.chapter4_IRS  %}
-{% assign fulltext = 'chapters/chapter4irs' %}
-{% endif %}
-
-
 {% for slice in collection %}
-  {% if slice.title == page.title and forloop.first %}
-      <p> <a href="{{ fulltext | relative_url }}"> <ul><li>[View full chapter as one page]</ul></li> </p>
-     {% include collectiontoc.html %}
-  {% endif %}
-{% endfor %}
-
-{% for slice in collection %}
-
 {% if slice.title == page.title %}
     {% unless forloop.first %}
         <a class="prev" href="{{ prev.url | relative_url }}">&larr;&nbsp;{{ prev.title }}</a>
