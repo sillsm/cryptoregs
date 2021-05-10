@@ -56,8 +56,27 @@
       </h1>
     </div>
 
-    <nav class="sidebar-nav">      
-           {% include menu.html %}
+    <nav class="sidebar-nav">  
+      <div id="big-menu">
+      {% for col in site.collections %}
+         {% assign name = col.label %}
+         {% assign collection = site[name] %}
+         {% assign fulltext = 'chapters/chapter2sec' %}
+       
+        {% if name == 'posts' %}
+          {% continue %}
+        {% endif %}
+      <input type="checkbox" id="big-collapse-{{name}}">
+      <label class="tick" for="big-collapse-{{name}}">
+         {{ collection[0].title }}
+      </label>
+      <div class="panel">
+      {% include collectiontoc.html %}
+        <ul><li> <a href="{{ fulltext | relative_url }}"> [View full chapter as one page]</a></li></ul>
+      </div>
+      </br>
+      {% endfor %}
+      </div>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
