@@ -12,6 +12,8 @@ author:
 
 collections_dir: chapters
 collections:
+  chapter1_regulatory:
+    output: true
   chapter2_sec_howey:
     output: true
     title: "Chapter 2 SEC"
