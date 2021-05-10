@@ -512,3 +512,7 @@ input:checked + label.tick::after {
 ul{
   margin:2px;
 }
+
+.sidebar{
+ overflow-y:auto; 
+}
