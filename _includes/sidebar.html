@@ -26,10 +26,14 @@
     <div id="menu">
       {% assign collection = site.chapter2_sec_howey  %}
       {% assign fulltext = 'chapters/chapter2sec' %}
-      <ul>
+      <input type="checkbox" id="collapse-sec">
+      <label class="tick" for="collapse-sec">
+                  Chapter 2: SEC
+      </label>
+      <div class="panel">
       {% include collectiontoc.html %}
         <ul><li> <a href="{{ fulltext | relative_url }}"> [View full chapter as one page]</a></li></ul>
-      </ul>      
+      </div>
     </div>
   </div>
   <h1 id="pagetitle">
