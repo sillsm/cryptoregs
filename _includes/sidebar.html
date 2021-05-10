@@ -25,10 +25,13 @@
          {% assign name = col.label %}
          {% assign collection = site[name] %}
          {% assign fulltext = 'chapters/chapter2sec' %}
+       
+        {% if name == 'posts' %}
+          {% continue %}
+        {% endif %}
       <input type="checkbox" id="collapse-{{name}}">
       <label class="tick" for="collapse-{{name}}">
-                  Chapter 2: SEC
-           x {{ collection[0].title }} x
+         {{ collection[0].title }}
       </label>
       <div class="panel">
       {% include collectiontoc.html %}
