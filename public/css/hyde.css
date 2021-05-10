@@ -517,3 +517,9 @@ ul{
 .sidebar{
  overflow-y:auto; 
 }
+
+@media print{
+  #hamburger{
+    display:none;
+  }
+}
