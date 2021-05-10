@@ -19,10 +19,12 @@
     <span></span>
     <span></span>
     
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
+
+    {% for c in site.collections %}
+      {% for chapter in site[c.label]}
+      Hi, {{ chapter.title }}
+      {% endfor $}
+    {% endfor %}
     <div id="menu">
       {% assign collection = site.chapter2_sec_howey  %}
       {% assign fulltext = 'chapters/chapter2sec' %}
