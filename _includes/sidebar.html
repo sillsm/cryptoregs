@@ -19,14 +19,11 @@
     <span></span>
     <span></span>
     
-
-    {% for c in site.collections %}
-      {% assign chapter = site[c.label] %}
-      Yo, {{ chapter.title }}
-    {% endfor %}
+    
     <div id="menu">
-      {% assign collection = site.chapter2_sec_howey  %}
-      {% assign fulltext = 'chapters/chapter2sec' %}
+      {% for c in site.collections %}
+         {% assign collection = site[c.label] %}
+         {% assign fulltext = 'chapters/chapter2sec' %}
       <input type="checkbox" id="collapse-sec">
       <label class="tick" for="collapse-sec">
                   Chapter 2: SEC
@@ -35,6 +32,8 @@
       {% include collectiontoc.html %}
         <ul><li> <a href="{{ fulltext | relative_url }}"> [View full chapter as one page]</a></li></ul>
       </div>
+      {% endfor %}
+      
     </div>
   </div>
   <h1 id="pagetitle">
