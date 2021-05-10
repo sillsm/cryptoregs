@@ -502,3 +502,13 @@ input:checked + label + .panel {
 input:checked + label.tick::after {
     content: '\2212';;
 }
+
+#big-menu{
+  font-size:19px;
+}
+.panel{
+  margin:2px;
+}
+ul{
+  margin:2px;
+}
