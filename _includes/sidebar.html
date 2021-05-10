@@ -21,12 +21,14 @@
     
     
     <div id="menu">
-      {% for c in site.collections %}
-         {% assign collection = site[c.label] %}
+      {% for col in site.collections %}
+         {% assign name = col.label %}
+         {% assign collection = site[name] %}
          {% assign fulltext = 'chapters/chapter2sec' %}
       <input type="checkbox" id="collapse-sec">
       <label class="tick" for="collapse-sec">
                   Chapter 2: SEC
+           also {{ collection.title }} ok
       </label>
       <div class="panel">
       {% include collectiontoc.html %}
