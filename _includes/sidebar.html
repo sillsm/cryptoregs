@@ -25,8 +25,8 @@
          {% assign name = col.label %}
          {% assign collection = site[name] %}
          {% assign fulltext = 'chapters/chapter2sec' %}
-      <input type="checkbox" id="collapse-sec">
-      <label class="tick" for="collapse-sec">
+      <input type="checkbox" id="collapse-{{name}}">
+      <label class="tick" for="collapse-{{name}}">
                   Chapter 2: SEC
            also {{ collection.title }} ok
       </label>
