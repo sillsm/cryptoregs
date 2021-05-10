@@ -57,11 +57,7 @@
     </div>
 
     <nav class="sidebar-nav">      
-            {%- for link in site.navbar-links -%}
-            <div class="chapter">
-             <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-            </div>
-          {%- endfor -%}
+           {% menu.html %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
