@@ -28,12 +28,13 @@
       <input type="checkbox" id="collapse-{{name}}">
       <label class="tick" for="collapse-{{name}}">
                   Chapter 2: SEC
-           z {{ collection[title] }} z
+           x {{ collection[0].title }} x
       </label>
       <div class="panel">
       {% include collectiontoc.html %}
         <ul><li> <a href="{{ fulltext | relative_url }}"> [View full chapter as one page]</a></li></ul>
       </div>
+      </br>
       {% endfor %}
       
     </div>
