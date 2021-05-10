@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Chapter 1: The Regulatory Loop
+title: "Chapter 1: The Regulatory Loop"
 ---
 
 Laws and regulations are not enacted in a vacuum. 
