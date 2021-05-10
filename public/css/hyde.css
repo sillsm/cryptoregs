@@ -436,7 +436,8 @@ body
 #menu{
     background-color:#101013;
     position: fixed;
-    top:60px;
+    top:10rem;
+    padding-left:5rem;
     bottom: 0;
     overflow-y:auto
 }
