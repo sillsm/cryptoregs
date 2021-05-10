@@ -5,7 +5,12 @@ layout: default
 
     {{ content }}
 
-{% for slice in collection %}
+
+{% for col in site.collections %}
+    {% assign name = col.label %}
+    {% assign collection = site[name] %}
+    {% for slice in collection %}
+
 {% if slice.title == page.title %}
     {% unless forloop.first %}
         <a class="prev" href="{{ prev.url | relative_url }}">&larr;&nbsp;{{ prev.title }}</a>
@@ -18,4 +23,4 @@ layout: default
 {% assign prev = slice %}
 
 {% endfor %}
-
+{% endfor %}
