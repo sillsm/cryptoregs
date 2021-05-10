@@ -21,9 +21,8 @@
     
 
     {% for c in site.collections %}
-      {% for chapter in site[c.label] %}
-      Hi, {{ chapter.title }}
-      {% endfor %}
+      {% assign chapter = site[c.label] %}
+      Yo, {{ chapter.title }}
     {% endfor %}
     <div id="menu">
       {% assign collection = site.chapter2_sec_howey  %}
