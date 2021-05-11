@@ -7,13 +7,14 @@ chapter: "SEC"
 # SEC Commissioner Peirce Proposed Safe Harbor – Time-limited Exemption for Tokens.
 --------------------------------------------------------------------------------
 Potential Proposed Securities Act Rule 195. Time-limited exemption for Tokens.[^peirceproposal]
-[^PeirceProposal]: "Proposed Safe Harbor – Time-limited Exemption for Tokens." (April 11, 2021), _available at_
+
+[^peirceProposal]: "Proposed Safe Harbor – Time-limited Exemption for Tokens." (April 11, 2021), _available at_
     (https://github.com/CommissionerPeirce/SafeHarbor2.0/blob/main/README.md)
 
 
 ***This potential safe harbor is not a rule, regulation, or statement of the Securities and Exchange Commission.  It cannot be relied on.  It does not necessarily reflect the views of the Securities and Exchange Commission or my fellow Commissioners.***
 
-## Proposed Securities Act Rule 195. Time-limited exemption for Tokens.
+**Proposed Securities Act Rule 195. Time-limited exemption for Tokens.**
 
 ***Preliminary Notes:***
 
