@@ -4,8 +4,6 @@ title: "SEC v. W. J. Howey Co."
 chapter: "SEC"
 ---
 
-That was interesting huh?
-
 # SEC v. W. J. Howey Co.
 --------------------------------------------------------------------------------
 328 U.S. 293 (1946)[^InlineNoteHowie]
