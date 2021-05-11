@@ -212,4 +212,4 @@ The Court finds that the SEC has shown a substantial likelihood of success in pr
 
 4. Who's Consumption? The District Court reasoned that the initial purchaers of the Grams did not intend to use them on the TON network, but rather intended to resell them for profit. "Consumptive uses for Grams were not features that could reasonably be expected to appeal to the Initial Purchasers targeted by Telegram. In seeking participants for the 2018 Sales, Telegram did not focus on cryptocurrency enthusiasts, specialty digital assets firms, or even mass market individuals who had a need for an alternative to fiat currency." As crypto assets become more prevelant and well understood among the general public, does that change the consumption calculus?
 
-5. 'Little more than alphanumeric cryptographic sequence'. The court keeps coming back to 
+5. 'Little more than alphanumeric cryptographic sequence'. The court repeatedly returns to analyzing the sequence of transactions and understandings between the party as the 'security' at issue, rather than the Grams alone. 
