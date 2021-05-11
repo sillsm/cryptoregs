@@ -47,4 +47,8 @@ We reject the suggestion of the Circuit Court of Appeals, 151 F.2d at 717, that 
 
 ## Discussion
 
-That was interesting huh?
+1. Consider an Ethereum smart-contract that is coded by X, forked by Y, and marketed by Z. A purchaser invests in it by sending a quantitiy of ether, with an expectation the contract will send them back double the ether in a week, depending on similarly situated purchasers also investing. 
+
+Is there a common enterprise? Common to who? 
+
+Does the value of the smart contract depend on the efforts of others? Which others? The original coder, the forker, the marketer, or the similarly situated purchasers?
