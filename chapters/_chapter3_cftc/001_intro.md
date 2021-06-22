@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "Chapter 2: SEC"
-chapter: "SEC"
+title: "Chapter 3: CFTC"
+chapter: "CFTC"
 ---
-# Chapter 2: SEC
+# Chapter 3: CFTC
