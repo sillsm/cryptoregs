@@ -17,7 +17,7 @@ collections:
   chapter2_sec_howey:
     output: true
     title: "Chapter 2 SEC"
-  chapter2_cftc:
+  chapter3_cftc:
     output: true
     title: "Chapter 2 CFTC"
   chapter4_IRS:
