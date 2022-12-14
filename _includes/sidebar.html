@@ -24,7 +24,7 @@
       {% for col in site.collections %}
          {% assign name = col.label %}
          {% assign collection = site[name] %}
-         {% assign fulltext = 'chapters/chapter2sec' %}
+         {% assign fulltext = 'chapters/' | append: name %}
        
         {% if name == 'posts' %}
           {% continue %}
@@ -60,8 +60,8 @@
       <div id="big-menu">
       {% for col in site.collections %}
          {% assign name = col.label %}
-         {% assign collection = site[name] %}
-         {% assign fulltext = 'chapters/chapter2sec' %}
+         {% assign collection = site[name] %}  
+         {% assign fulltext = 'chapters/' | append: name %}
        
         {% if name == 'posts' %}
           {% continue %}
