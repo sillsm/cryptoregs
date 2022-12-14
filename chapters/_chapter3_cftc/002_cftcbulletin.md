@@ -1,6 +1,6 @@
 ---
 layout: section
-title: "SEC v. W. J. Howey Co."
+title: "Self-Certified Contracts for Bitcoin Products"
 chapter: "CFTC"
 ---
 
