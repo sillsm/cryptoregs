@@ -1,7 +1,7 @@
 ---
 layout: section
 title: "Yale Article on regualtory dynamcs"
-chapter: "REGUALTORY"
+chapter: "intro"
 ---
 
 # Title of regulatory review
