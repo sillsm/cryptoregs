@@ -19,3 +19,8 @@ What are the top 10 US government agencies that regulate cryptocurrency and how 
 9. The Consumer Financial Protection Bureau (CFPB): The CFPB is responsible for protecting consumers from unfair and deceptive practices related to financial products, including those related to cryptocurrencies.
 
 10. The Federal Trade Commission (FTC): The FTC has the authority to investigate and prosecute deceptive or unfair practices related to cryptocurrencies.
+
+Theories of regulation and links
+
+1. https://www.jstor.org/stable/41349912 "Agency coordination in Shared Regulatory Space"
+2. https://www.econstor.eu/bitstream/10419/56642/1/667294783.pdf "Bargaining and Collusion in a Regulatory Model"
