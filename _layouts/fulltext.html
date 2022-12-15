@@ -3,12 +3,16 @@ layout: default
 ---
 {% assign chapter = page.chapter %}
 
+{% if chapter == "intro" %}
+{% assign collection = site.chapter1intro  %}
+{% endif %}
+
 {% if chapter == "SEC" %}
-{% assign collection = site.chapter2_sec_howey  %}
+{% assign collection = site.chapter2sec  %}
 {% endif %}
 
 {% if chapter == "IRS" %}
-{% assign collection = site.chapter4_IRS  %}
+{% assign collection = site.chapter4irs  %}
 {% endif %}
 
 {{ content }}
